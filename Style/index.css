@@ -50,7 +50,5 @@ body{ padding: 1%; }
 }
 .painel a:hover{ color: #818181; }
 
-.main{
-    margin-left: 200px;
-}
+.main{ margin-left: 200px; }
 
