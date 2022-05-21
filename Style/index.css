@@ -1,6 +1,56 @@
-#nome{
-    //
+body{ padding: 1%; }
+
+#outerCircle{
+    border: 2px solid black;
+    border-radius: 50%;
+    background: url(https://static.vecteezy.com/system/resources/previews/003/340/806/original/wavy-layer-beige-background-free-vector.jpg);
+    background-position: center;
+    background-size: 150%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
 }
-#sobrenome{
-    //
+
+#innerCircle{
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdttrsoo6oeP7oYBzadROchc_oueCtuhQIqg&usqp=CAU);
+    background-position: center;
+    background-size: 150%;
+    padding: 20px;
+    width: 155px;
+    height: 155px;
 }
+#photo{
+    border-right: 3px solid black;
+    border-bottom-right-radius: 30%;
+}
+#sidemenu{
+    border-left: 3px solid black;
+    border-top-left-radius: 30%;
+    padding-top: 20%;
+}
+
+.painel{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+.painel a{
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.painel a:hover{ color: #818181; }
+
+.main{
+    margin-left: 200px;
+}
+
